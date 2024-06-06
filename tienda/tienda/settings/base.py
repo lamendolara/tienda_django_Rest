@@ -40,10 +40,13 @@ DJANGO_APPS = (
 LOCAL_APPS = (
     'applications.users',
     'applications.home',
+    'applications.producto',
+    'applications.venta',
 )
 
 THIRD_PARTY_APPS = (
     'rest_framework',
+    'rest_framework.authtoken',
 )
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRD_PARTY_APPS
@@ -110,4 +113,4 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
