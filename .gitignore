@@ -1,4 +1,4 @@
-*.json
+tienda/*.json
 #
 tienda/applications/home/migrations/*
 #
