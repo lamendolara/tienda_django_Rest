@@ -62,7 +62,8 @@ class ProductViewSet(viewsets.ModelViewSet):
         usuario = self.request.user
         queryset = Product.objects.productos_por_user(usuario)
 
-        # ******** esta parte las borramos *******
+        # #******** esta parte las borramos *******
+
         # page = self.paginate_queryset(queryset)
         # if page is not None:
         #     serializer = self.get_serializer(page, many=True)
